@@ -19,10 +19,10 @@ if [[ ! -f "${INPUT_PROJECTBASEDIR%/}/sonar-project.properties" ]]; then
     -Dsonar.token="${INPUT_LOGIN}" \
     -Dsonar.sources="${INPUT_PROJECTBASEDIR}" \
     -Dsonar.sourceEncoding="${INPUT_ENCODING}" \
-    -Dproject.settings=../myproject.properties
+    -Dproject.settings=sonar-project.properties
 else
   sonar-scanner \
     -Dsonar.host.url="${INPUT_HOST}" \
     -Dsonar.token="${INPUT_LOGIN}" \
-    -Dproject.settings=../myproject.properties
+    -Dproject.settings=sonar-project.properties
 fi

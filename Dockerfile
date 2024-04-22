@@ -6,7 +6,7 @@ LABEL "com.github.actions.icon"="check"
 LABEL "com.github.actions.color"="green"
 
 LABEL version="0.0.2"
-LABEL repository="https://github.com/kitabisa/sonarqube-action"
+LABEL repository="https://github.com/erma07/sonarqube-action"
 LABEL homepage="https://kitabisa.github.io"
 LABEL maintainer="dwisiswant0"
 
